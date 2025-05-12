@@ -1,3 +1,11 @@
+// Toggle del menú hamburguesa
+const hamburger = document.getElementById("hamburger");
+const menu = document.getElementById("menu");
+
+hamburger.addEventListener("click", () => {
+  menu.classList.toggle("show");
+});
+
 // INICIO
 document.addEventListener("DOMContentLoaded", () => {
   const contenidoInicioBtn = document.getElementById("contenidoInicioBtn");
